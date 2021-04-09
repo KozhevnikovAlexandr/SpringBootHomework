@@ -1,0 +1,20 @@
+package com.example.homework.first.dependences;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ConstructorInjectionClass {
+
+    private JustClass data;
+
+    @Autowired
+    public ConstructorInjectionClass(JustClass data) {
+        this.data = data;
+    }
+
+    public JustClass getData() {
+        return data;
+    }
+
+}
