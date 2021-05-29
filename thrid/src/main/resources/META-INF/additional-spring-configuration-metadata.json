@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "app.second-config.subconfig",
+      "type": "java.lang.String",
+      "description": "Description for app.second-config.subconfig."
+    },
+    {
+      "name": "app.second-config.user",
+      "type": "java.lang.String",
+      "description": "Description for app.second-config.user."
+    },
+    {
+      "name": "app.second-config.ttl",
+      "type": "java.lang.String",
+      "description": "Description for app.second-config.ttl."
+    },
+    {
+      "name": "app.first-config",
+      "type": "java.lang.String",
+      "description": "Description for app.first-config."
+    }
+  ] }

@@ -1,0 +1,6 @@
+app:
+  first-config: 123
+  second-config:
+    subconfig: dev_subconfig
+    user: admin
+    ttl: 321s
